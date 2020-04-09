@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>控制台</title>
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
+    <script src="../js/jquery.js" type="text/javascript"></script>
+    <script src="../js/config.js" type="text/javascript"></script>
+    <script src="../src/抽奖名单.js" type="text/javascript"></script>
+    <!--<script src="../js/xlsx.core.min.js" type="text/javascript"></script>-->
+</head>
+<body onload="loadConfigPage()">
+    <a class="a-nav" href="index.html">首页</a>
+    <a class="a-nav" href="3.html">三等奖</a>
+    <a class="a-nav" href="2.html">二等奖</a>
+    <a class="a-nav" href="1.html">一等奖</a>
+    <a class="a-nav" href="4.html">特别奖</a>
+
+    <div id="header">
+        <h1 class="h1">控制台</h1>
+    </div>
+    <div id="content" class="center">
+        <table id="controlPanel" class="center">
+            <tr>
+                <td>三等奖个数</td>
+                <td><input id="total3"></td>
+            </tr>
+            <tr>
+                <td>二等奖个数</td>
+                <td><input id="total2"></td>
+            </tr>
+            <tr>
+                <td>一等奖个数</td>
+                <td><input id="total1"></td>
+                <td><button onclick="setPrizeTotal()">保存奖品数量</button></td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>抽奖标题</td>
+                <td><textarea id="drawTitle"></textarea></td>
+                <td><button onclick="setDrawTitle()">保存抽奖标题</button></td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>人员名单</td>
+                <td><button onclick="setNameList()">重置抽奖名单</button></td>
+                <td><button onclick="exportPrizeList()">查看中奖名单</button></td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>全局</td>
+                <td><button onclick="resetDraw()">重新抽奖</button></td>
+                <td><button onclick="clearStorage()">清空缓存</button></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

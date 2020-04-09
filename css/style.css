@@ -1,0 +1,290 @@
+body {
+  background-image: url("../src/background.jpg");
+  background-color: #06203d;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: #FFFFCC;
+}
+
+h2 {
+  text-align: center;
+  font-size: 70px;
+  color: #FFFFCC;
+}
+
+h3 {
+  text-align: center;
+  font-size: 55px;
+  color: #FFFFCC;
+}
+
+a {
+  text-decoration: none;
+}
+
+#content {
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+#left {
+  width: 55%;
+  float: left;
+}
+
+#right{
+  width: 35%;
+  float: left;
+}
+
+.a-nav {
+  text-decoration: none;
+  color: #FFFFCC;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.a-nav:hover{
+  font-weight: bold;
+}
+
+.a-index {
+  margin-top: 45px;
+}
+
+.a-index:hover {
+  font-size: 70px;
+}
+
+#win-num {
+  text-align: center;
+  font-size: 130px;
+  color: #FFFFCC;
+}
+
+#win-num-3{
+  text-align: center;
+  font-size: 50px;
+  color: #FFFFCC;
+}
+
+#win-num-3 table{
+  margin: 0 auto;
+  width: 80%;
+  height: 300px;
+}
+
+#win-num-3 table td{
+  text-align: center;
+  font-size: 50px;
+  color: #FFFFCC;
+  height: 140px;
+  width: 20%;
+}
+
+#win-list-wrapper {
+  text-align: center;
+  width: 100%;
+}
+
+#win-list {
+  font-size: 40px;
+  color: #FFFFCC;
+  margin: 0 auto;
+}
+
+#win-list div {
+  display: inline-block;
+  width: 200px;
+  height: 80px;
+}
+
+#btn-draw {
+  background-color: transparent;
+  background-image: url("../src/btn-up.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  width: 140px;
+  height: 140px;
+  font-size: 30px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+#btn-add {
+  font-weight: normal;
+  background-color: white;
+  border: none;
+  width: 100px;
+  height: 60px;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+#pageList {
+  margin-top: 100px;
+  text-align: center;
+}
+
+#pageList table {
+  margin: 0 auto;
+  width: 80%;
+  height: 200px;
+}
+
+#pageList table #firstRow td{
+  width: 33%;
+}
+
+/*#pageList table #secondRow td{*/
+  /*width: 50%;*/
+/*}*/
+
+#pageList a {
+  display: inline-block;
+  width: 100%;
+  height: 280px;
+}
+
+#thirdPrizeList {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#thirdPrizeList table{
+  width: 100%;
+  margin: 0 auto;
+  color: #FFFFCC;
+  text-align: left;
+}
+
+#thirdPrizeList table td {
+  height: 100px;
+  font-size: 30px;
+}
+
+#forthPrizeList {
+  width: 90%;
+  margin: 0 auto;
+  /*text-align: center;*/
+}
+
+#forthPrizeList table {
+  width: 100%;
+  margin: 0 auto;
+  color: #FFFFCC;
+  /*text-align: left;*/
+}
+
+#forthPrizeList table tr{
+  height: 40px;
+}
+
+#forthPrizeList table td{
+  text-align: center;
+  /*text-align: left;*/
+  line-height: 80px;
+  font-size: 40px;
+
+}
+
+#thirdPrizeList div, #forthPrizeList div{
+  display: inline-block;
+  color: #FFFFCC;
+  margin-left: 40px;
+}
+
+.orange {
+  color: #E7B827;
+}
+
+#content #controlPanel {
+  width: 50%;
+  color: #FFFFCC;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+#content #controlPanel tr{
+  height: 80px;
+}
+
+#content #controlPanel td{
+  padding: 0;
+  width: 200px;
+}
+
+#content #controlPanel input{
+  width: 200px;
+  height: 30px;
+  font-size: 30px;
+}
+
+#content #controlPanel textarea{
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  resize: none;
+}
+
+#content #controlPanel button{
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+}
+
+#addition, #nextGroup {
+  color: #FFFFCC;
+  font-size: 20px;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+#nextGroup:hover {
+  font-weight: bold;
+}
+
+.h2 .page {
+  color: #FFFFCC;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  opacity: 0.6;
+  font-size: 20px;
+}
+
+#prevPrize, #nextPrize {
+  font-size: 40px;
+  color: #FFFFCC;
+  text-decoration: none;
+  position: absolute;
+  bottom: 100px;
+}
+
+#prevPrize {
+  left: 20px;
+}
+
+#nextPrize {
+  right: 20px;
+}
+
+#btn-resetDraw {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
