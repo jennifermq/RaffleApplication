@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Author    : muqing
-# Email     : mouqing@qianxin.com
-# Department: anfu
+# Author    : jennifermq
 
 import codecs
 import json
