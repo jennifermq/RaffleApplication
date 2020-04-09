@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>抽奖</title>
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
+    <script src="../js/jquery.js" type="text/javascript"></script>
+    <script src="../js/draw.js" type="text/javascript"></script>
+</head>
+<body onload="loadPage(3)">
+    <a id="backHome" class="a-nav" href="index.html">返回首页</a>
+    <a id="checkList" class="a-nav" href="prizeList3.html">查看中奖名单</a>
+    <!--<div id="header">-->
+        <!--<h1 class="h1" id="drawTitle"></h1>-->
+    <!--</div>-->
+    <div id="content">
+        <h3 class="h3 center">三等奖</h3>
+        <div id="win-num-3"></div>
+        <div class="center">
+            <button id="btn-draw" class="btn btn-lg" onclick="drawWinner()"></button><br><br>
+            <a id="addition" href="3_addition.html">补抽</a>
+        </div>
+    </div>
+    <a id="nextPrize" href="2.html">》</a>
+</body>
+</html>
